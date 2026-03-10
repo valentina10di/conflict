@@ -2,59 +2,6 @@ test text
 Filesystem            Size  Used Avail Use% Mounted on
 C:/Program Files/Git  237G   62G  176G  27% /
 Text from new branch
-    1  whoami
-    2  ls .ssh/
-    3  cat .ssh/id_ed25519.pub 
-    4  ssh ec2-user@linux.itcareerhub.de
-    5  start
-    6  cd
-    7  ssh ec2-user@linux.itcareerhub.de
-    8  pwd
-    9  /opt/281125-wdm/valentina_10/valentina_10
-   10  scp ec2-user@linox.itcareerhub.de:/opt/281125-wdm/valentina_10/valentina_10C: \Users\ICH\my_linux
-   11  scp ec2-user@linox.itcareerhub.de:/opt/281125-wdm/valentina_10/valentina_10 C:/Users/ICH/my_linux
-   12  scp ec2-user@linox.itcareerhub.de:/opt/281125-wdm/valentina_10/di.txt C:/Users/ICH/my_linux
-   13  scp ec2-user@linox.itcareerhub.de:/opt/281125-wdm/valentina_10/di.txt C:/Users/ICH/my_linux
-   14  scp ec2-user@linox.itcareerhub.de:/opt/281125-wdm/valentina_10/di.txt /C/Users/ICH/my_linux
-   15  scp ec2-user@linox.itcareerhub.de:/opt/281125-wdm/valentina_10/di.txt '/c/Users/ICH/my_linux'
-   16  scp ec2-user@linux.itcareerhub.de:/opt/281125-wdm/valentina_10/di.txt /c/Users/ICH/my_linux/
-   17  ssh ec2-user@linux.itcareerhub.de
-   18  ssh ec2-user@linux.itcareerhub.de
-   19  ssh ec2-user@linux.itcareerhub.de
-   20  sc2-user@linux.itcareerhub.de:/opt/281125-wdm/valentina_10/di.txt .
-   21  scp ec2-user@linux.itcareerhub.de:/opt/281125-wdm/valentina_10/di.txt .
-   22   scp ec2-user@linux.itcareerhub.de:/opt/281125-wdm/valentina/.process_management .
-   23  scp ec2-user@linux.itcareerhub.de:/opt/281125-wdm/valentina/.process_management .
-   24  ssh ec2-user@linux.itcareerhub.de
-   25  ssh ec2-user@linux.itcareerhub.de
-   26  cd
-   27  nano /tmp/file.txt
-   28  df -h | head -n 3 > /tmp/file.txt
-   29  cat file.txt
-   30  cat /tmp/file.txt
-   31  chmod g+wx /tmp/file.txt
-   32  ls -l
-   33  ls -la
-   34  chmod o-rwx /tmp/file.txt
-   35  cat myfirstbashscript.sh >> /tmp/file.txt
-   36  nano /tmp/file.txt
-   37  df -h | head -n 3 > /tmp/file.txt
-   38  cat /tmp/file.txt
-   39  chmod g+wx /tmp/file.txt
-   40  chmod o-rwx /tmp/file.txt
-   41  ls -l /tmp/file.txt
-   42  chmod g+wx /tmp/file.txt
-   43  chmod o-rwx /tmp/file.txt
-   44  ls -l /tmp/file.txt
-   45  ssh ec2-user@lino
-   46  ssh ec2-user@linux.itcareerhub.de/281125-wdm
-   47  ssh ec2-user@linux.itcareerhub.de
-   48  scp ec2-user@linux.itcareerhub.de .
-   49  scp ec2-user@linux.itcareerhub.de/tmp/my_file_Valentina.txt .
-   50  scp ec2-user@linux.itcareerhub.de:/tmp/my_file_Valentina.txt .
-   51  scp ec2-user@linux.itcareerhub.de:/tmp/my_file_Valentina.txt .
-   52  scp ec2-user@linux.itcareerhub.de:/tmp/my_file_Valentina.txt .
-   53  ssh ec2-user@linux.itcareerhub.de
    54  mkdir Linux
    55  cd Linux
    56  git init
