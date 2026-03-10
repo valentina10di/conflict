@@ -1,3 +1,371 @@
 test text
 Filesystem            Size  Used Avail Use% Mounted on
 C:/Program Files/Git  237G   62G  176G  27% /
+Text from new branch
+    1  whoami
+    2  ls .ssh/
+    3  cat .ssh/id_ed25519.pub 
+    4  ssh ec2-user@linux.itcareerhub.de
+    5  start
+    6  cd
+    7  ssh ec2-user@linux.itcareerhub.de
+    8  pwd
+    9  /opt/281125-wdm/valentina_10/valentina_10
+   10  scp ec2-user@linox.itcareerhub.de:/opt/281125-wdm/valentina_10/valentina_10C: \Users\ICH\my_linux
+   11  scp ec2-user@linox.itcareerhub.de:/opt/281125-wdm/valentina_10/valentina_10 C:/Users/ICH/my_linux
+   12  scp ec2-user@linox.itcareerhub.de:/opt/281125-wdm/valentina_10/di.txt C:/Users/ICH/my_linux
+   13  scp ec2-user@linox.itcareerhub.de:/opt/281125-wdm/valentina_10/di.txt C:/Users/ICH/my_linux
+   14  scp ec2-user@linox.itcareerhub.de:/opt/281125-wdm/valentina_10/di.txt /C/Users/ICH/my_linux
+   15  scp ec2-user@linox.itcareerhub.de:/opt/281125-wdm/valentina_10/di.txt '/c/Users/ICH/my_linux'
+   16  scp ec2-user@linux.itcareerhub.de:/opt/281125-wdm/valentina_10/di.txt /c/Users/ICH/my_linux/
+   17  ssh ec2-user@linux.itcareerhub.de
+   18  ssh ec2-user@linux.itcareerhub.de
+   19  ssh ec2-user@linux.itcareerhub.de
+   20  sc2-user@linux.itcareerhub.de:/opt/281125-wdm/valentina_10/di.txt .
+   21  scp ec2-user@linux.itcareerhub.de:/opt/281125-wdm/valentina_10/di.txt .
+   22   scp ec2-user@linux.itcareerhub.de:/opt/281125-wdm/valentina/.process_management .
+   23  scp ec2-user@linux.itcareerhub.de:/opt/281125-wdm/valentina/.process_management .
+   24  ssh ec2-user@linux.itcareerhub.de
+   25  ssh ec2-user@linux.itcareerhub.de
+   26  cd
+   27  nano /tmp/file.txt
+   28  df -h | head -n 3 > /tmp/file.txt
+   29  cat file.txt
+   30  cat /tmp/file.txt
+   31  chmod g+wx /tmp/file.txt
+   32  ls -l
+   33  ls -la
+   34  chmod o-rwx /tmp/file.txt
+   35  cat myfirstbashscript.sh >> /tmp/file.txt
+   36  nano /tmp/file.txt
+   37  df -h | head -n 3 > /tmp/file.txt
+   38  cat /tmp/file.txt
+   39  chmod g+wx /tmp/file.txt
+   40  chmod o-rwx /tmp/file.txt
+   41  ls -l /tmp/file.txt
+   42  chmod g+wx /tmp/file.txt
+   43  chmod o-rwx /tmp/file.txt
+   44  ls -l /tmp/file.txt
+   45  ssh ec2-user@lino
+   46  ssh ec2-user@linux.itcareerhub.de/281125-wdm
+   47  ssh ec2-user@linux.itcareerhub.de
+   48  scp ec2-user@linux.itcareerhub.de .
+   49  scp ec2-user@linux.itcareerhub.de/tmp/my_file_Valentina.txt .
+   50  scp ec2-user@linux.itcareerhub.de:/tmp/my_file_Valentina.txt .
+   51  scp ec2-user@linux.itcareerhub.de:/tmp/my_file_Valentina.txt .
+   52  scp ec2-user@linux.itcareerhub.de:/tmp/my_file_Valentina.txt .
+   53  ssh ec2-user@linux.itcareerhub.de
+   54  mkdir Linux
+   55  cd Linux
+   56  git init
+   57  ls -la
+   58  echo "# Linux" >> README.md
+   59  ls -la
+   60  git add status
+   61  git add README.md
+   62  git status
+   63  git commit -m "first commit"
+   64  git config user.name "Valentina10di"
+   65  git config user.email "valentinavgd10@gmail.com"
+   66  git commit -m "first commit"
+   67  git branch
+   68  git branch -M main
+   69  git push -u origin main
+   70  git remote add origin git@github.com:valentina10di/Linux.git
+   71  git remote -v
+   72  git push -u origin main
+   73  ls -la
+   74  git add project
+   75  git status
+   76  git status
+   77  git add .
+   78  git status
+   79  git commid -m "added file project"
+   80  git push
+   81  git commid -m "added file text"
+   82  git push
+   83  git commid -m "added file text.txt"
+   84  clear
+   85  git log
+   86  git log —oneline
+   87  git log —-oneline
+   88  git log --graph
+   89  ls -la
+   90  ls
+   91  ls
+   92  clear
+   93  ls
+   94  git init
+   95  ls -la
+   96  git branch
+   97  git status
+   98  git add avif.avif
+   99  git add avif.avif
+  100  git commit "file avif.avif"
+  101  ls
+  102  cd
+  103  ls
+  104  ls
+  105  git init
+  106  git add img1.jpg
+  107  git status
+  108  git restore file avif.avif
+  109  ls
+  110  ls
+  111  git add img1.jpg
+  112  ls -la
+  113  git branch
+  114  git status
+  115  git rm --cached avif.avif
+  116  git status
+  117  git commit -m "Add image file"
+  118   git config --global user.email "valentinavgd10@gmail.com"
+  119  git config --global user.name  "valentina10di"
+  120  git status
+  121  git commit -m "Add image file"
+  122  ls
+  123  git log
+  124  git branch
+  125  git branch -M main
+  126  ls
+  127  git remote -v 
+  128  git remote add origin git@github.com:valentina10di/git_intro.git
+  129  git remote -v 
+  130  git push -u origin main
+  131  git status
+  132  git add img2.jpg
+  133  git status
+  134  git commit -m "Added file img2.jpg"
+  135  git push
+  136  git status
+  137  git add img2.jpg
+  138  git status
+  139  git commit -m "remove img2"
+  140  git push
+  141  ls
+  142  touch YA_SMOG.log
+  143  ls
+  144  git status
+  145  git add .
+  146  git status
+  147  git commit "added YA_SMOG.log"
+  148  git status
+  149  git commit -m "added YA_SMOG.log"
+  150  git status
+  151  git push
+  152  ssh ec2-user@linux.itcareerhub.de
+  153  scp ec2-user@linux.itcareerhub.de:/opt/281125-wdm/valentina_10/myfirstbashscript.sh .
+  154  ssh ec2-user@linux.itcareerhub.de
+  155  mkdir -p 
+  156  eho
+  157  echo "# Test" >> REDME.md
+  158  cat REDME.md
+  159  git init
+  160  ls -la
+  161  git status
+  162  git add .
+  163  git -D test
+  164  la -ls
+  165  la -ls
+  166  git@github.com:valentina10di/test.git
+  167  ls -la
+  168  git branch -M main
+  169  mkdir git-branch
+  170  cd git-branch
+  171  git status
+  172  git rm -r --cached
+  173  git status
+  174  зцв
+  175  pwd
+  176  git remote -v
+  177  git branch
+  178  cd ~/my_linux
+  179  rm -rf .git
+  180  git status
+  181  cd git-branch
+  182  git init
+  183  git status
+  184  git branch -M main
+  185  branch
+  186  git branch
+  187  git remote -v
+  188  git remote add origin git@github.com:valentina10di/git-branch.git
+  189  git remote -v
+  190  git push -u origin main
+  191  git checkout -b gitignore
+  192  git status
+  193  nano .gitignore
+  194  git add .gitignore
+  195  git status
+  196  git commit -m "Add .gitignore"
+  197  git push
+  198  git push -u origin gitignore
+  199  git checkout main
+  200  git branch
+  201  git checkout main
+  202  git merge gitignore
+  203  git push origin main
+  204  git branch -m main
+  205  git status
+  206  git push -u origin main
+  207  git merge gitignore
+  208  ls -a
+  209  git push -u origin main
+  210  ssh ec2-user@linux.itcareerhub.de
+  211  ssh ec2-user@linux.itcareerhub.de
+  212  scp ssh ec2-user@linux.itcareerhub.de:/opt/281125-wdm/permission_checker.sh .
+  213  scp ec2-user@linux.itcareerhub.de:/opt/281125-wdm/permission_checker.sh .
+  214  ssh ec2-user@linux.itcareerhub.de
+  215  scp ec2-user@linux.itcareerhub.de:/opt/281125-wdm/permission_checker.sh .
+  216  git branch
+  217  git branch
+  218  cd HW11
+  219  Cd hw11
+  220  cd hw11
+  221  git branch
+  222  git fetch
+  223  git branch
+  224  ls
+  225  git log
+  226  ls
+  227  git init
+  228  git remote add origin https://github.com/valentina10di/HW11.git
+  229  echo "# Домашняя работа 11" > README.md
+  230  git add .
+  231  git status
+  232  git commit -m "добавила задание"
+  233  git push
+  234  git push --set-upstream origin main
+  235  rm -rf .git
+  236  rm README.md
+  237  git status
+  238  git clone git@github.com:valentina10di/HW11.git
+  239  cd HW11/
+  240  git checkout -b feature
+  241  touch README.md
+  242  nano .gitignore
+  243  git status
+  244  git add .
+  245  git status
+  246  git rm --cashede README.md
+  247  git rm --cachede README.md
+  248  git rm --cached README.md
+  249  git status
+  250  git add .
+  251  git status
+  252  git commit -m "added  README.md modified .gitignore"
+  253  git status
+  254  git log
+  255  git switch main
+  256  git branch
+  257  git merge feature
+  258  git log --oneline --graph --all
+  259  git push origin main
+  260  history > history.txt
+  261  ls
+  262  git add history.txt
+  263  git status
+  264  git commit -m "add history.txt with commands history"
+  265  git.log
+  266  git.log --oneline
+  267  git log
+  268  git log --oneline --graph --all
+  269  git push origin main
+  270  git status
+  271  git branch -a
+  272  git push origin feature
+  273  git branch -a
+  274  node -v
+  275  ssh ec2-user@linux.itcareerhub.de
+  276  scp es2-user@linux.itcareerhub.de:/opt/281125-wdm/Valentina/task_Valentina.sh .
+  277  scp es2-user@linux.itcareerhub.de:/opt/281125-wdm/Valentina .
+  278  scp es2-user@linux.itcareerhub.de:/opt/281125-wdm/Valentina/task_Valentina.sh .
+  279  ssh ec2-user@linux.itcareerhub.de
+  280  ssh ec2-user@linux.itcareerhub.de
+  281  ssh ec2-user@linux.itcareerhub.de
+  282  scp ec2-user@linux.itcareerhub.de:~/Valentina_work.tar.gz .
+  283  git clone git@github.com:valentina10di/learning_git.git
+  284  cd learning_git
+  285  git remote -v
+  286  git remote add upstream https://github.com/it-career-hub/learning_git.git
+  287  git remote -v
+  288  mkdir -p 281125-wdm
+  289  git branch
+  290  ls -la
+  291  touch 281125-wdm/valentina.txt
+  292  ls -la
+  293  rm -rf 281125-wdm
+  294  rm -f valentina.txt
+  295  rm -rf 281125-wdm
+  296  rm -rf 281125-wdm
+  297  git checkout -b valentina-task
+  298  mkdir 281125-wdm
+  299  touch 281125-wdm/valentina.txt
+  300  git status
+  301  git add 281125-wdm/
+  302  git commit -m "Add group folder and valentina file in a new branch"
+  303  git remote -v
+  304  git push origin valentina-task
+  305  ssh ec2-user@linux.itcareerhub.de
+  306  ssh ec2-user@linux.itcareerhub.de
+  307  ssh ec2-user@linux.itcareerhub.de
+  308  git init
+  309  git status
+  310  git add .
+  311  git status
+  312  git commit -m "created file with hw"
+  313  git remote -v
+  314  git remote add origin main
+  315  git remote -v
+  316  git remote add origin git@github.com:valentina10di/my-linux.git
+  317  git remote remove origin main
+  318  git remote remove origin git@github.com:valentina10di/my-linux.git
+  319  git remote add origin git@github.com:valentina10di/my-linux.git
+  320  git remote -v
+  321  git remote remove origin
+  322  git remote add origin git@github.com:valentina10di/my-linux.git
+  323  git remote -v
+  324  git push
+  325  git push -u origin main
+  326  git pull
+  327  git pull origin main
+  328  git pull origin main --allow-unrelated-historis
+  329  git pull origin main --allow-unrelated-histories
+  330  ls
+  331  git.log
+  332  git log
+  333  git pull -u origin main
+  334  git push -u origin main
+  335  clear
+  336  ls
+  337  cd
+  338  git clone git@github.com:valentina10di/conflict.git
+  339  git init
+  340  mkdir -p conflict
+  341  git status
+  342  rm -rf conflict
+  343  пше ыефегы
+  344  git status
+  345  cd
+  346  pwd
+  347  git clone https://github.com/valentina10di/conflict.git
+  348  cd conflict
+  349  git status
+  350  echo "test text" > test.txt
+  351  git add test.txt
+  352  git status
+  353  git commit -m "Add test.txt"
+  354  git status
+  355  cat test.txt
+  356  git checkout -b NEW_BRANCH
+  357  echo "Text from new branch" > test.txt
+  358  git add test.txt
+  359  git commit -m "Update test.txt in NEW_BRANCH"
+  360  git checkout main
+  361  df -h >> test.txt
+  362  git add test.txt
+  363  git commit -m "Add df info to test.txt in main"
+  364  git merge NEW_BRANCH
+  365  nano test.txt
+  366  git push origin main
+  367  history >> test.txt
